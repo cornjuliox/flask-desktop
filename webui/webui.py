@@ -42,7 +42,7 @@ class WebUI(object):
         #change_setting(settings.OfflineStorageDatabaseEnabled, True)
         #change_setting(settings.OfflineWebApplicationCacheEnabled, True)
 
-        self.view.show()
+        self.view.showMaximized()
 
         self.app.exec_()
 
