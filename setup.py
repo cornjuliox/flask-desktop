@@ -13,6 +13,6 @@ setup(
 	url='https://github.com/Widdershin/WebUI/',
 	license='MIT',
 	description='WebUI lets you create first class desktop applications in Python with HTML/CSS',
-	long_description=open('README.rst').read(),
+	long_description=open('README.md').read(),
 	install_requires=required,
 	)
