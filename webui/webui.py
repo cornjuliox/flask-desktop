@@ -8,7 +8,6 @@ import PyQt5.QtWebEngineWidgets as web_widgets
 
 default_url = "127.0.0.1"
 
-
 class WebUI(object):
     def __init__(self, app, url=default_url, port=5000,
                  debug=False, using_win32=False):
@@ -42,7 +41,7 @@ class WebUI(object):
         #change_setting(settings.OfflineStorageDatabaseEnabled, True)
         #change_setting(settings.OfflineWebApplicationCacheEnabled, True)
 
-        self.view.show()
+        self.view.showMaximized()
 
         self.app.exec_()
 
