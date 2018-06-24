@@ -1,4 +1,5 @@
 from threading import Thread
+import time
 
 import PyQt5.QtCore as core
 import PyQt5.QtWidgets as core_widgets
@@ -23,6 +24,7 @@ class WebUI(object):
 
     def run(self):
         self.run_flask()
+        time.sleep(1)
         self.run_gui()
 
     def run_flask(self):
